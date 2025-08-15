@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Kumar Baral - Frontend Developer Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/smooth-scrollbar.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Custom CSS for smaller thumbnails -->
+    <style>
+        .gallery-item .portfolio-item-inner img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+        .gallery-item {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body class="home5-page">
+    <video class="body-overlay" muted autoplay loop>
+        <source src="images/video5.mp4" type="video/mp4">
+    </video>
+
+    <div class="page-loader">
+        <div class="bounceball"></div>
+    </div>
+
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li><a class="scroll-to" href="#home"><i class="las la-home"></i> <span>Home</span></a></li>
+                    <li><a class="scroll-to" href="#about"><i class="lar la-user"></i> <span>About</span></a></li>
+                    <li><a class="scroll-to" href="#resume"><i class="las la-briefcase"></i> <span>Resume</span></a></li>
+                    <li><a class="scroll-to" href="#services"><i class="las la-stream"></i> <span>Services</span></a></li>
+                    <li><a class="scroll-to" href="#skills"><i class="las la-shapes"></i> <span>Skills</span></a></li>
+                    <li><a class="scroll-to" href="#portfolio"><i class="las la-grip-vertical"></i> <span>Projects</span></a></li>
+                    <li><a class="scroll-to" href="#gallery"><i class="las la-images"></i> <span>Gallery</span></a></li>
+                    <li><a class="scroll-to" href="#testimonial"><i class="lar la-comment"></i> <span>Testimonials</span></a></li>
+                    <li><a class="scroll-to" href="#contact"><i class="las la-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/manas-baral-b3037a1b4/"><i class="lab la-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/manasbaral32"><i class="lab la-github"></i></a></li>
+                    <li><a target="_blank" href="https://x.com/ManasBa51145072"><i class="lab la-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <ul class="menu scroll-nav d-flex">
+        <li><a class="scroll-to" href="#home"><span>Home</span> <i class="las la-home"></i></a></li>
+        <li><a class="scroll-to" href="#about"><span>About</span> <i class="lar la-user"></i></a></li>
+        <li><a class="scroll-to" href="#resume"><span>Resume</span> <i class="las la-briefcase"></i></a></li>
+        <li><a class="scroll-to" href="#services"><span>Services</span> <i class="las la-stream"></i></a></li>
+        <li><a class="scroll-to" href="#skills"><span>Skills</span> <i class="las la-shapes"></i></a></li>
+        <li><a class="scroll-to" href="#portfolio"><span>Projects</span> <i class="las la-grip-vertical"></i></a></li>
+        <li><a class="scroll-to" href="#gallery"><span>Gallery</span> <i class="las la-images"></i></a></li>
+        <li><a class="scroll-to" href="#testimonial"><span>Testimonials</span> <i class="lar la-comment"></i></a></li>
+        <li><a class="scroll-to" href="#contact"><span>Contact</span> <i class="las la-envelope"></i></a></li>
+    </ul>
+
+    <div class="left-sidebar">
+            <h4 class="designation">Frontend Developer</h4>
+        <img class="me" src="images/me.jpg" alt="Manas Kumar Baral">
+        <h2 class="email">baralmanas32@gmail.com</h2>
+        <h2 class="address">Bhubaneswar, India</h2>
+        <p class="copyright">&copy; 2025 Manas Kumar Baral. All Rights Reserved</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li><a target="_blank" href="https://www.linkedin.com/in/manas-baral-b3037a1b4/"><i class="lab la-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://github.com/manasbaral32"><i class="lab la-github"></i></a></li>
+            <li><a target="_blank" href="https://x.com/ManasBa51145072"><i class="lab la-twitter"></i></a></li>
+        </ul>
+        <a href="images/Manas Baral 4+Yrs React Dev.pdf" target="_blank" class="theme-btn" download>
+            <i class="las la-download"></i> Download My Resume
+        </a>
+    </div>
+
+    <main class="drake-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <section class="hero-section page-section scroll-to-page" id="home">
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Welcome
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Hello, I'm <span>Manas</span>, Frontend Developer</h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">With over 4 years of expertise in crafting dynamic, responsive web applications using React.js, Redux, and modern UI frameworks, I specialize in creating seamless user experiences and scalable solutions.</p>
+                            <a href="#portfolio" class="go-to-project-btn scroll-to scroll-animation" data-animation="rotate_up">
+                                <img src="images/round-text.png" alt="">
+                                <i class="las la-arrow-down"></i>
+                            </a>
+                            <div class="facts d-flex">
+                                <div class="left scroll-animation" data-animation="fade_from_left">
+                                    <h1>5+</h1>
+                                    <p>Years of <br>Experience</p>
+                                </div>
+                                <div class="right scroll-animation" data-animation="fade_from_right">
+                                    <h1>20+</h1>
+                                    <p>Projects Delivered</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about-area page-section scroll-to-page" id="about">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-user"></i> About Me
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Crafting <span>Innovative</span> Digital Solutions</h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">I'm a passionate Frontend Developer with a focus on React.js, TypeScript, and UI/UX integration. My journey began with a Bachelor’s in Technology, leading to impactful roles at DBI360, Invincix, and Orimark, where I've built responsive web and mobile applications, optimized performance, and collaborated with cross-functional teams to deliver exceptional user experiences.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="resume-area page-section scroll-to-page" id="resume">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i> Resume
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Journey</span></h1>
+                            </div>
+                            <div class="resume-timeline">
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Oct 2023 – Present</span>
+                                    <h2>Frontend Developer</h2>
+                                    <p>DBI360 (Previously Jeeva Organic)</p>
+                                    <p>Developed core features for web and mobile applications using React.js and Redux. Crafted interactive UI components with pixel-perfect design integration and collaborated in agile workflows.</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">May 2022 – Aug 2023</span>
+                                    <h2>Associate Consultant</h2>
+                                    <p>Invincix Solution Pvt Ltd, Odisha, India</p>
+                                    <p>Led frontend development with React.js, TypeScript, and Redux Toolkit. Integrated REST APIs, maintained scalable UI, and mentored junior developers to enhance code quality.</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Feb 2021 – Dec 2021</span>
+                                    <h2>Web Developer</h2>
+                                    <p>Orimark Technologies, Odisha, India</p>
+                                    <p>Designed responsive web pages and dashboards using HTML, CSS, JavaScript, and Bootstrap. Optimized UI for mobile and cross-browser compatibility.</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">2015 – 2019</span>
+                                    <h2>Bachelor of Technology</h2>
+                                    <p>Krupajal Engineering College, Odisha</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="services-area page-section scroll-to-page" id="services">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i> Services
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">What I <span>Offer</span></h1>
+                            </div>
+                            <div class="services-items">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-code"></i>
+                                    <h2>Frontend Development</h2>
+                                    <p>Creating responsive and scalable web applications using React.js, Next.js, and modern frameworks.</p>
+                                    <span class="projects">15+ Projects</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>UI/UX Integration</h2>
+                                    <p>Implementing pixel-perfect designs with HTML5, CSS3, Tailwind, and Material UI for seamless user experiences.</p>
+                                    <span class="projects">10+ Projects</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-tachometer-alt"></i>
+                                    <h2>Performance Optimization</h2>
+                                    <p>Enhancing application performance with state management (Redux, Context API) and optimized code practices.</p>
+                                    <span class="projects">8+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills-area page-section scroll-to-page" id="skills">
+                    <div class="custom-container">
+                        <div class="skills-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-shapes"></i> Skills
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Expertise</span></h1>
+                            </div>
+                            <div class="row skills text-center">
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/react.png" alt="React.js">
+                                            <h1 class="percent">95%</h1>
+                                        </div>
+                                        <p class="name">React.js</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/Redux.png" alt="Redux">
+                                            <h1 class="percent">90%</h1>
+                                        </div>
+                                        <p class="name">Redux</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/typescript.png" alt="TypeScript">
+                                            <h1 class="percent">85%</h1>
+                                        </div>
+                                        <p class="name">TypeScript</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/js-file.png" alt="JavaScript">
+                                            <h1 class="percent">92%</h1>
+                                        </div>
+                                        <p class="name">JavaScript</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/physics.png" alt="React Native">
+                                            <h1 class="percent">60%</h1>
+                                        </div>
+                                        <p class="name">React Native</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/html.png" alt="HTML/CSS">
+                                            <h1 class="percent">88%</h1>
+                                        </div>
+                                        <p class="name">HTML/CSS</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/figma.png" alt="Figma">
+                                            <h1 class="percent">80%</h1>
+                                        </div>
+                                        <p class="name">Figma</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="images/adobe-photoshop.png" alt="Photoshop">
+                                            <h1 class="percent">70%</h1>
+                                        </div>
+                                        <p class="name">Photoshop</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="portfolio-area page-section scroll-to-page" id="portfolio">
+                    <div class="custom-container">
+                        <div class="portfolio-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-grip-vertical"></i> Projects
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Featured <span>Work</span></h1>
+                            </div>
+                            <div class="row portfolio-items">
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-full">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/portfolio1.jpg" data-lightbox="example-1">
+                                                <img src="images/portfolio1.jpg" alt="Nexus Platform">
+                                            </a>
+                                            <ul class="portfolio-categories">
+                                                <li><a href="#">React.js</a></li>
+                                                <li><a href="#">React Native</a></li>
+                                                <li><a href="#">Context API</a></li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">Nexus Platform – Web & Mobile App</a></h2>
+                                        <p>Built responsive web and mobile applications with reusable components and optimized UI.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/portfolio2.jpg" data-lightbox="example-1">
+                                                <img src="images/portfolio2.jpg" alt="Beverage Management System">
+                                            </a>
+                                            <ul class="portfolio-categories">
+                                                <li><a href="#">React.js</a></li>
+                                                <li><a href="#">TypeScript</a></li>
+                                                <li><a href="#">Redux Toolkit</a></li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">Wage Management System – Web App</a></h2>
+                                        <p>Developed a system for inventory, order, and workforce management with real-time API integration.</p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/portfolio3.jpg" data-lightbox="example-1">
+                                                <img src="images/portfolio3.jpg" alt="Beverage Management System">
+                                            </a>
+                                            <ul class="portfolio-categories">
+                                                <li><a href="#">React</a></li>
+                                                <li><a href="#">CSS</a></li>
+                                                <li><a href="#">Redux</a></li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">B2B ecommerce <span>Platform</span></a></h2>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/portfolio4.jpg" data-lightbox="example-1">
+                                                <img src="images/portfolio4.jpg" alt="Beverage Management System">
+                                            </a>
+                                            <ul class="portfolio-categories">
+                                                <li><a href="#">HTML</a></li>
+                                                <li><a href="#">CSS</a></li>
+                                                <li><a href="#">Bootstrap</a></li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">Mediance Website <span></span></a></h2>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/portfolio5.jpg" data-lightbox="example-1">
+                                                <img src="images/portfolio5.jpg" alt="Beverage Management System">
+                                            </a>
+                                            <ul class="portfolio-categories">
+                                                <li><a href="#">HTML</a></li>
+                                                <li><a href="#">CSS</a></li>
+                                                <li><a href="#">Bootstrap</a></li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="#">MedQPro Website  <span></span></a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="gallery-area page-section scroll-to-page" id="gallery">
+                    <div class="custom-container">
+                        <div class="gallery-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-images"></i> Gallery
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Logo & Social Media <span>Designs</span></h1>
+                            </div>
+                            <div class="row portfolio-items">
+                                <!-- Posters -->
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster1.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster1.jpg" alt="Social Media Poster 1">
+                                            </a>
+                                        </div>
+                                        <h2>Marketing Poster 1</h2>
+                                        <p>Engaging social media poster for a campaign.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster2.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster2.jpg" alt="Social Media Poster 2">
+                                            </a>
+                                        </div>
+                                        <h2>Product Launch Poster</h2>
+                                        <p>Vibrant poster for a product launch.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster3.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster3.jpg" alt="Social Media Poster 3">
+                                            </a>
+                                        </div>
+                                        <h2>Event Promotion Poster</h2>
+                                        <p>Poster designed for an event campaign.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster4.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster4.jpg" alt="Social Media Poster 4">
+                                            </a>
+                                        </div>
+                                        <h2>Brand Awareness Poster</h2>
+                                        <p>Social media poster for brand promotion.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster5.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster5.jpg" alt="Social Media Poster 5">
+                                            </a>
+                                        </div>
+                                        <h2>Sale Campaign Poster</h2>
+                                        <p>Poster for a seasonal sale campaign.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster6.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster6.jpg" alt="Social Media Poster 6">
+                                            </a>
+                                        </div>
+                                        <h2>Community Poster</h2>
+                                        <p>Poster for community engagement.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster7.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster7.jpg" alt="Social Media Poster 7">
+                                            </a>
+                                        </div>
+                                        <h2>Product Feature Poster</h2>
+                                        <p>Poster highlighting product features.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster8.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster8.jpg" alt="Social Media Poster 8">
+                                            </a>
+                                        </div>
+                                        <h2>Service Promotion Poster</h2>
+                                        <p>Poster for service advertisement.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster9.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster9.jpg" alt="Social Media Poster 9">
+                                            </a>
+                                        </div>
+                                        <h2>Tech Campaign Poster</h2>
+                                        <p>Poster for a tech-focused campaign.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster10.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster10.jpg" alt="Social Media Poster 10">
+                                            </a>
+                                        </div>
+                                        <h2>Engagement Poster</h2>
+                                        <p>Poster to boost social media engagement.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster11.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster11.jpg" alt="Social Media Poster 11">
+                                            </a>
+                                        </div>
+                                        <h2>Product Reveal Poster</h2>
+                                        <p>Poster for a new product reveal.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/poster12.jpg" data-lightbox="gallery-1">
+                                                <img src="images/poster12.jpg" alt="Social Media Poster 12">
+                                            </a>
+                                        </div>
+                                        <h2>Brand Campaign Poster</h2>
+                                        <p>Poster for a major brand campaign.</p>
+                                    </div>
+                                </div>
+                                <!-- Logos -->
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/logo1.jpg" data-lightbox="gallery-1">
+                                                <img src="images/logo1.jpg" alt="Logo Design 1">
+                                            </a>
+                                        </div>
+                                        <h2>Startup Logo</h2>
+                                        <p>Modern logo for a startup using Figma.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/logo2.jpg" data-lightbox="gallery-1">
+                                                <img src="images/logo2.jpg" alt="Logo Design 2">
+                                            </a>
+                                        </div>
+                                        <h2>Tech Logo</h2>
+                                        <p>Minimalist logo for a tech company.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/logo3.jpg" data-lightbox="gallery-1">
+                                                <img src="images/logo3.jpg" alt="Logo Design 3">
+                                            </a>
+                                        </div>
+                                        <h2>E-Commerce Logo</h2>
+                                        <p>Dynamic logo for an online retail brand.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/logo4.jpg" data-lightbox="gallery-1">
+                                                <img src="images/logo4.jpg" alt="Logo Design 4">
+                                            </a>
+                                        </div>
+                                        <h2>Startup Brand Logo</h2>
+                                        <p>Creative logo for a tech startup.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 gallery-item scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="images/logo5.jpg" data-lightbox="gallery-1">
+                                                <img src="images/logo5.jpg" alt="Logo Design 5">
+                                            </a>
+                                        </div>
+                                        <h2>Corporate Logo</h2>
+                                        <p>Professional logo for a corporate client.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="testimonial-area page-section scroll-to-page" id="testimonial">
+                    <div class="custom-container">
+                        <div class="testimonial-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-comment"></i> Testimonials
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Client <span>Feedback</span></h1>
+                            </div>
+                            <div class="testimonial-slider-wrap scroll-animation" data-animation="fade_from_bottom">
+                                <div class="owl-carousel testimonial-slider owl-theme">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="images/testimonial-1.jpg" alt="testimonial">
+                                                <div class="right">
+                                                    <h3>Project Manager</h3>
+                                                    <p class="designation">DBI360</p>
+                                                </div>
+                                            </div>
+                                            <p>“Manas delivers exceptional React-based applications with a focus on performance and quality.”</p>
+                                            <a href="#" class="project-btn">View Project</a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="images/testimonial-2.jpg" alt="testimonial">
+                                                <div class="right">
+                                                    <h3>UX Designer</h3>
+                                                    <p class="designation">Invincix</p>
+                                                </div>
+                                            </div>
+                                            <p>“Manas excels at turning complex designs into responsive, user-friendly interfaces.”</p>
+                                            <a href="#" class="project-btn">View Project</a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="images/testimonial-3.jpg" alt="testimonial">
+                                                <div class="right">
+                                                    <h3>Product Owner</h3>
+                                                    <p class="designation">Orimark</p>
+                                                </div>
+                                            </div>
+                                            <p>“Manas enhanced our application’s UI, ensuring seamless cross-device compatibility.”</p>
+                                            <a href="#" class="project-btn">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-footer-nav">
+                                    <div class="testimonial-nav d-flex align-items-center">
+                                        <button class="prev"><i class="las la-angle-left"></i></button>
+                                        <div id="testimonial-slide-count"></div>
+                                        <button class="next"><i class="las la-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-area page-section scroll-content" id="contact">
+                    <div class="custom-container">
+                        <div class="contact-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-envelope"></i> Contact
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Connect <span>With Me</span></h1>
+                            </div>
+                            <h3 class="scroll-animation" data-animation="fade_from_bottom">baralmanas32@gmail.com</h3>
+                            <p id="required-msg">* Required fields must be filled.</p>
+                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST" action="https://formspree.io/f/your-form-id">
+                                <div class="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
+                                    Your message was sent successfully.
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="full-name">Full Name <sup>*</sup></label>
+                                            <input type="text" name="full-name" id="full-name" placeholder="Your Full Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="email">Email <sup>*</sup></label>
+                                            <input type="email" name="email" id="email" placeholder="Your email address" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="phone-number">Phone <span>(optional)</span></label>
+                                            <input type="text" name="phone-number" id="phone-number" placeholder="Your phone number">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="subject">Subject <sup>*</sup></label>
+                                            <select name="subject" id="subject" required>
+                                                <option value="">Select a subject</option>
+                                                <option value="hiring">Hiring Inquiry</option>
+                                                <option value="collaboration">Project Collaboration</option>
+                                                <option value="consultation">Consultation</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="budget">Your Budget <span>(optional)</span></label>
+                                            <input type="number" name="budget" id="budget" placeholder="Your project budget range">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="message">Message</label>
+                                            <textarea name="message" id="message" placeholder="Write your message here..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group submit-btn-wrap">
+                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/ScrollToPlugin.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ajax-form.js"></script>
+</body>
+</html>
